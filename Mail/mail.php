@@ -40,11 +40,10 @@
     $mail->SetFrom("koc2016.admin@koc2016.in");
     $mail->Subject = "Feedback from " . $name;
     $mail->Body = "Following are the Feedback details:\\n" . $bodyLline1 . $bodyLline2 . $bodyLline3 . $bodyLline4;
-//    $mail->AddAddress("vcovs.feedback@vcovs.org", "VCOVS Feedback");
-//    $mail->AddAddress("aritra.mondal@vcovs.org", "VCOVS AMG");
-    $mail->AddAddress("sourajitonline@gmail.com", "Sourajit Mitra");
-    $mail->AddAddress("aritram90@gmail.com", "Aritra Mondal");
-    $mail->AddAddress("gourabmitraonline@gmail.com", "Gourab Mitra");
+    $mail->AddAddress("registration.info@koc2016.in", "Koc Registration 2016");
+//    $mail->AddAddress("sourajitonline@gmail.com", "Sourajit Mitra");
+//    $mail->AddAddress("aritram90@gmail.com", "Aritra Mondal");
+//    $mail->AddAddress("gourabmitraonline@gmail.com", "Gourab Mitra");
     if (!$mail->Send()) {
         echo "Mailer Error: " . $mail->ErrorInfo;
 //    header("Location");
