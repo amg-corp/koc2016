@@ -129,7 +129,7 @@ and open the template in the editor.
                     <!-- ///  digits  /// -->
                     <div class="col-md-8">
                         <!-- ///  to start the countdown the only requirement is the data-date attribute /// -->
-                        <div class="row" id="countdown" data-date="2016/07/17">
+                        <div class="row" id="countdown" data-date="2016/04/17">
                             <div class="col-md-3 count-digits wow fadeInDown" data-wow-delay="1s">
                                 <p id="days">20</p>
                                 <span class="lead">Days</span>
@@ -1282,7 +1282,7 @@ and open the template in the editor.
         </footer>
         <!-- ///  end footer  /// -->
 
-        
+
         <!-- Registration Modal -->
 
         <!-- ///  start script  /// -->
@@ -1300,16 +1300,17 @@ and open the template in the editor.
         <script type="text/javascript" src="assets/js/countdown.js"></script>
         <script type="text/javascript" src="assets/js/jquery.placeholder.js"></script>
         <script type="text/javascript" src="assets/js/jquery.form-validator.min.js"></script>
+        <script type="text/javascript" src="assets/js/jspdf.debug.js"></script>        
         <script type="text/javascript" src="assets/js/wow.min.js"></script>        
         <script type="text/javascript" src="assets/js/main.js"></script>      
         <script type="text/javascript">
-            $(document).ready(function () {
+            $(document).ready(function() {
                 //Events that reset and restart the timer animation when the slides change
-                $("#transition-timer-carousel").on("slide.bs.carousel", function (event) {
+                $("#transition-timer-carousel").on("slide.bs.carousel", function(event) {
                     //The animate class gets removed so that it jumps straight back to 0%
                     $(".transition-timer-carousel-progress-bar", this)
                             .removeClass("animate").css("width", "0%");
-                }).on("slid.bs.carousel", function (event) {
+                }).on("slid.bs.carousel", function(event) {
                     //The slide transition finished, so re-add the animate class so that
                     //the timer bar takes time to fill up
                     $(".transition-timer-carousel-progress-bar", this)
@@ -1319,6 +1320,68 @@ and open the template in the editor.
                 //Kick off the initial slide animation when the document is ready
                 $(".transition-timer-carousel-progress-bar", "#transition-timer-carousel")
                         .css("width", "100%");
+                // Code for PDf genaration
+                $('#button1id').click(function() {
+
+//              Checking for checkbox
+                    var stringchk = "";
+                    $(":checkbox").each(function() {
+                        $(this).prop('checked') ? stringchk += $(this).val() + ", " : "N/A";
+                    });
+                    console.log(stringchk);
+
+                    var v_name = document.getElementById('Name').value;
+                    var v_phone = document.getElementById('Phone').value;
+                    var v_input = document.getElementById('Input').value;
+                    var v_email = document.getElementById('Email').value;
+                    var v_age = document.getElementById('Age').value;
+                    var v_textarea = document.getElementById('textarea').value;
+                    var v_designation = document.getElementById('Designation').value;
+                    var v_role = document.getElementById('Role').value;
+                    var v_pst = document.getElementById('Police Station').value;
+                    var v_diat = document.getElementById('DIATERY REQUIREMENT').value;
+                    var v_city = document.getElementById('City').value;
+                    var v_po = document.getElementById('Post Office').value;
+                    var v_org = document.getElementById('Organisation').value;
+
+                    var doc = new jsPDF();
+
+                    doc.text(90, 20, 'KOC 2016');
+                    doc.text(80, 30, 'Application Form');
+                    doc.text(20, 40, 'Registration ID:  ');
+                    doc.text(20, 50, 'Name:');
+                    doc.text(80, 50, v_name);
+                    doc.text(20, 60, 'Phone:');
+                    doc.text(80, 60, v_phone);
+                    doc.text(20, 70, 'Input:');
+                    doc.text(80, 70, v_input);
+                    doc.text(20, 80, 'Email:');
+                    doc.text(80, 80, v_email);
+                    doc.text(20, 90, 'Age:');
+                    doc.text(80, 90, v_age);
+                    doc.text(20, 100, 'Textarea:');
+                    doc.text(80, 100, v_textarea);
+                    doc.text(20, 130, 'Checkbox:');
+                    doc.text(80, 130, stringchk.replace(/,\s*$/, ""));
+                    doc.text(20, 140, 'Designation:');
+                    doc.text(80, 140, v_designation);
+                    doc.text(20, 150, 'Role:');
+                    doc.text(80, 150, v_role);
+                    doc.text(20, 160, 'Police Station:');
+                    doc.text(80, 160, v_pst);
+                    doc.text(20, 170, 'Diatery Requirment:');
+                    doc.text(80, 170, v_diat);
+                    doc.text(20, 180, 'City:');
+                    doc.text(80, 180, v_city);
+                    doc.text(20, 190, 'Post Office:');
+                    doc.text(80, 190, v_po);
+                    doc.text(20, 200, 'Organisation:');
+                    doc.text(80, 200, v_org);
+                    doc.text(20, 230, 'I here by declared the above informations are correct.');
+                    doc.text(20, 250, '_____________________');
+                    doc.text(20, 260, 'Signature');
+                    doc.save('Test.pdf');
+                });
             });
         </script> 
     </body>
