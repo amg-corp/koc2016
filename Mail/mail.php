@@ -32,7 +32,7 @@
     $mail->SMTPDebug = 1; // debugging: 1 = errors and messages, 2 = messages only
     $mail->SMTPAuth = true; // authentication enabled
     $mail->SMTPSecure = 'ssl'; // secure transfer enabled REQUIRED for GMail
-    $mail->Host = "bh-8.webhostbox.net";
+    $mail->Host = "sg2plcpnl0094.prod.sin2.secureserver.net";
     $mail->Port = 465; // or 587
     $mail->IsHTML(true);
     $mail->Username = "koc2016.admin@koc2016.in";
@@ -53,9 +53,6 @@
 //        header('Location: ../index1.php');
 //    http_redirect("../index1.php",true,HTTP_REDIRECT_PERM);  
         ?>
-
-
-
         <body>
             <script>
 //                window.location.href = "../index.html?v=d";
