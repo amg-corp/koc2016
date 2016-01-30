@@ -51,12 +51,12 @@ and open the template in the editor.
                     <!-- Collect the nav links, forms, and other content for toggling -->
                     <div class="collapse navbar-collapse" id="navbar-collapse">
                         <ul class="nav navbar-nav navbar-right" id="nav">
-                            <li><a href="#conference">Conference at a Glance</a></li>
-                            <li><a href="#schedule">Schedule</a></li>
+                            <li><a href="#features">Conference at a Glance</a></li>
                             <li><a href="#speakers">Speakers</a></li>
                             <li><a href="#multimedia">Accomodation</a></li>
                             <li><a href="#team">Team</a></li>
                             <li><a href="#ourLocation">Venue</a></li>
+                            <li><a href="#schedule">schedule</a></li>
                             <li><a href="#ourLocation1" data-toggle="modal" data-target=".bs-example-modal-lg">Registration</a></li>
                         </ul>
                     </div><!-- /.navbar-collapse -->
@@ -71,7 +71,7 @@ and open the template in the editor.
         <div class="promo" id="home" style="background-image:url(assets/img/vic1.jpg); background-size: 100% 100%;">
             <!-- ///  semitransparent layer  /// -->
             <div class="color-correction"></div> 
-
+            
             <!-- ///  begin entry  /// -->         
             <div class="container">
                 <div class="row">
@@ -124,11 +124,11 @@ and open the template in the editor.
         <!-- ///  end promo  /// --> 
 
         <!-- ///  begin countdown  /// -->
-        <div class="counter" id="conference">
+        <div class="counter">
             <div class="container">
                 <div class="row">
                     <!-- ///  digits  /// -->
-                    <div class="col-md-12">
+                    <div class="col-md-8">
                         <!-- ///  to start the countdown the only requirement is the data-date attribute /// -->
                         <div class="row" id="countdown" data-date="2016/04/17">
                             <div class="col-md-3 count-digits wow fadeInDown" data-wow-delay="1s">
@@ -149,18 +149,18 @@ and open the template in the editor.
                             </div>
                         </div>
                     </div>                      
-                    <!--                    <div class="col-md-4 text-center wow fadeInUp" data-wow-delay="1.8s">
-                                            <h1>Conference at a Glance</h1>
-                                            <p class="lead">
-                                                Kolkata, West Bengal <br> 
-                                                April 16-17, 2015
-                                            </p>
-                                            <ul class="list-inline join-us">
-                                                <li><a href="" class="btn btn-empty-inverse btn-lg"><i class="fa fa-google-plus"></i></a></li>
-                                                <li><a href="" class="btn btn-empty-inverse btn-lg"><i class="fa fa fa-twitter"></i></a></li>
-                                                <li><a href="" class="btn btn-empty-inverse btn-lg"><i class="fa fa-facebook"></i></a></li>
-                                            </ul>
-                                        </div>-->
+                    <div class="col-md-4 text-center wow fadeInUp" data-wow-delay="1.8s">
+                        <h1>Conference at a Glance</h1>
+                        <p class="lead">
+                            Kolkata, West Bengal <br> 
+                            April 16-17, 2015
+                        </p>
+                        <ul class="list-inline join-us">
+                            <li><a href="" class="btn btn-empty-inverse btn-lg"><i class="fa fa-google-plus"></i></a></li>
+                            <li><a href="" class="btn btn-empty-inverse btn-lg"><i class="fa fa fa-twitter"></i></a></li>
+                            <li><a href="" class="btn btn-empty-inverse btn-lg"><i class="fa fa-facebook"></i></a></li>
+                        </ul>
+                    </div>
                 </div>
             </div>
         </div>
@@ -184,18 +184,64 @@ and open the template in the editor.
                         <!-- Tab panes -->
                         <div class="tab-content">
                             <div class="tab-pane active" id="first-day">
-                                <div class="panel-group" id="accordion2">
+                                <div class="panel-group" id="accordion">
                                     <div class="panel panel-default">
                                         <div class="panel-heading">
                                             <h4 class="panel-title">
-                                                <a data-toggle="collapse" data-parent="#accordion2" href="#collapseOne2">
-                                                    9:00 AM - Inauguration
+                                                <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne">
+                                                    09:00 am - 10:00 am
                                                 </a>
                                             </h4>
                                         </div>
-                                        <div id="collapseOne2" class="panel-collapse collapse">
+                                        <div id="collapseOne" class="panel-collapse collapse">
                                             <div class="panel-body">
-                                                <h4>Scientific Session 3</h4>
+                                                <h4>Inauguration</h4>
+                                                <p>Inauguration</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="panel panel-default">
+                                        <div class="panel-heading">
+                                            <h4 class="panel-title">
+                                                <a data-toggle="collapse" data-parent="#accordion" href="#collapseTwo">
+                                                    10:00 am - 12:00 pm
+                                                </a>
+                                            </h4>
+                                        </div>
+                                        <div id="collapseTwo" class="panel-collapse collapse">
+                                            <div class="panel-body">
+                                                <h4>Scientific Session 1</h4>
+                                                <p>Scientific Session 1</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="panel panel-default">
+                                        <div class="panel-heading">
+                                            <h4 class="panel-title">
+                                                <a data-toggle="collapse" data-parent="#accordion" href="#collapseThree">
+                                                    12:00 pm - 1:00 pm
+                                                </a>
+                                            </h4>
+                                        </div>
+                                        <div id="collapseThree" class="panel-collapse collapse">
+                                            <div class="panel-body">
+                                                <h4>Lunch</h4>
+                                                <p>A unique initiative for the first time in Eastern India on 16th & 17th April 2016 at the Science City Auditorium & Milan Mela Ground, Kolkata.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="panel panel-default">
+                                        <div class="panel-heading">
+                                            <h4 class="panel-title">
+                                                <a data-toggle="collapse" data-parent="#accordion" href="#collapseFour">
+                                                    2:00 pm - 5:00 pm
+                                                </a>
+                                            </h4>
+                                        </div>
+                                        <div id="collapseFour" class="panel-collapse collapse">
+                                            <div class="panel-body">
+                                                <h4>Scientific Session 1</h4>
+                                                <p>Scientific Session 1</p>
                                             </div>
                                         </div>
                                     </div>
@@ -203,60 +249,19 @@ and open the template in the editor.
                                     <div class="panel panel-default">
                                         <div class="panel-heading">
                                             <h4 class="panel-title">
-                                                <a data-toggle="collapse" data-parent="#accordion2" href="#collapseThree2">
-                                                    10:00 PM - Scientific Session 1
+                                                <a data-toggle="collapse" data-parent="#accordion2" href="#collapseOne2">
+                                                    5:00 pm
                                                 </a>
                                             </h4>
                                         </div>
-                                        <div id="collapseThree" class="panel-collapse collapse">
+                                        <div id="collapseOne2" class="panel-collapse collapse">
                                             <div class="panel-body">
-                                                <h4>Lunch</h4>
+                                                <h4>High Tea</h4>
+                                                <p>High Tea</p>
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="panel panel-default">
-                                        <div class="panel-heading">
-                                            <h4 class="panel-title">
-                                                <a data-toggle="collapse" data-parent="#accordion2" href="#collapseThree2">
-                                                    12:00 PM - Lunch
-                                                </a>
-                                            </h4>
-                                        </div>
-                                        <div id="collapseThree" class="panel-collapse collapse">
-                                            <div class="panel-body">
-                                                <h4></h4>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="panel panel-default">
-                                        <div class="panel-heading">
-                                            <h4 class="panel-title">
-                                                <a data-toggle="collapse" data-parent="#accordion2" href="#collapseThree2">
-                                                    2:00 PM - Scientific Session 2
-                                                </a>
-                                            </h4>
-                                        </div>
-                                        <div id="collapseThree" class="panel-collapse collapse">
-                                            <div class="panel-body">
-                                                <h4>Scientific Session 4</h4>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="panel panel-default">
-                                        <div class="panel-heading">
-                                            <h4 class="panel-title">
-                                                <a data-toggle="collapse" data-parent="#accordion2" href="#collapseThree2">
-                                                    5:00 PM - High Tea
-                                                </a>
-                                            </h4>
-                                        </div>
-                                        <div id="collapseThree" class="panel-collapse collapse">
-                                            <div class="panel-body">
-                                                <h4>Scientific Session 4</h4>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div> 
+                                </div>                          
                             </div>
 
                             <!-- Secound -->
@@ -296,6 +301,20 @@ and open the template in the editor.
                                             <h4 class="panel-title">
                                                 <a data-toggle="collapse" data-parent="#accordion2" href="#collapseThree2">
                                                     2:00 PM - Scientific Session 4
+                                                </a>
+                                            </h4>
+                                        </div>
+                                        <div id="collapseThree" class="panel-collapse collapse">
+                                            <div class="panel-body">
+                                                <h4>Scientific Session 4</h4>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="panel panel-default">
+                                        <div class="panel-heading">
+                                            <h4 class="panel-title">
+                                                <a data-toggle="collapse" data-parent="#accordion2" href="#collapseThree2">
+                                                    6:00 PM - Optometry Quiz
                                                 </a>
                                             </h4>
                                         </div>
@@ -421,101 +440,101 @@ and open the template in the editor.
         <!-- ///  end video  /// -->
 
         <!-- ///  begin photos  /// -->
-        <!--        <div class="photo">
-                    <div class="container">            
-                        <div class="row mt20">
-                            <div class="col-md-6 wow fadeInLeft">
-                                <h1>Latest Photos</h1>
-                                <p class="lead">KOC 2016</p>
-                                <hr>
-                                <p>A unique initiative for the first time in Eastern India on 16th & 17th April 2016 at the Science City Auditorium & Milan Mela Ground, Kolkata.</p>
-                            </div>
-                            <div class="col-md-6 wow fadeInRight">
-                                <div class="photo-wrapper">
-                                    <div id="photoSlider2" class="carousel slide" data-ride="carousel">
-                                        <div class="carousel-inner">                      
-                                            <div class="item active">
-                                                <img src="assets/img/slide2/img1.jpg" alt="">
-                                            </div>                      
-                                            <div class="item">
-                                                <img src="assets/img/slide2/img2.jpg" alt="">
-                                            </div>                      
-                                            <div class="item">
-                                                <img src="assets/img/slide2/img3.jpg" alt="">
-                                            </div>                      
-                                            <div class="item">
-                                                <img src="assets/img/slide2/img4.jpg" alt="">
-                                            </div>                      
-                                            <div class="item">
-                                                <img src="assets/img/slide2/img5.jpg" alt="">
-                                            </div>                      
-                                            <div class="item">
-                                                <img src="assets/img/slide2/img6.jpg" alt="">
-                                            </div>                      
-                                            <div class="item">
-                                                <img src="assets/img/slide2/img7.jpg" alt="">
-                                            </div>                      
-                                            <div class="item">
-                                                <img src="assets/img/slide2/img8.jpg" alt="">
-                                            </div> 
-                                        </div>
-                                    </div>   
-                                </div>
-                                <div class="text-center">
-                                    <div class="btn-group">
-                                        <a href="#photoSlider2" data-slide="prev" class="btn btn-success">
-                                            <span class="glyphicon glyphicon-chevron-left"></span>
-                                        </a>
-                                        <a href="#photoSlider2" data-slide="next" class="btn btn-success">
-                                            <span class="glyphicon glyphicon-chevron-right"></span>
-                                        </a>
-                                    </div>                  
-                                </div>                                             
-                            </div>              
-                        </div>
+        <div class="photo">
+            <div class="container">            
+                <div class="row mt20">
+                    <div class="col-md-6 wow fadeInLeft">
+                        <h1>Latest Photos</h1>
+                        <p class="lead">KOC 2016</p>
+                        <hr>
+                        <p>A unique initiative for the first time in Eastern India on 16th & 17th April 2016 at the Science City Auditorium & Milan Mela Ground, Kolkata.</p>
                     </div>
-                </div>-->
+                    <div class="col-md-6 wow fadeInRight">
+                        <div class="photo-wrapper">
+                            <div id="photoSlider2" class="carousel slide" data-ride="carousel">
+                                <div class="carousel-inner">                      
+                                    <div class="item active">
+                                        <img src="assets/img/slide2/img1.jpg" alt="">
+                                    </div>                      
+                                    <div class="item">
+                                        <img src="assets/img/slide2/img2.jpg" alt="">
+                                    </div>                      
+                                    <div class="item">
+                                        <img src="assets/img/slide2/img3.jpg" alt="">
+                                    </div>                      
+                                    <div class="item">
+                                        <img src="assets/img/slide2/img4.jpg" alt="">
+                                    </div>                      
+                                    <div class="item">
+                                        <img src="assets/img/slide2/img5.jpg" alt="">
+                                    </div>                      
+                                    <div class="item">
+                                        <img src="assets/img/slide2/img6.jpg" alt="">
+                                    </div>                      
+                                    <div class="item">
+                                        <img src="assets/img/slide2/img7.jpg" alt="">
+                                    </div>                      
+                                    <div class="item">
+                                        <img src="assets/img/slide2/img8.jpg" alt="">
+                                    </div> 
+                                </div>
+                            </div>   
+                        </div>
+                        <div class="text-center">
+                            <div class="btn-group">
+                                <a href="#photoSlider2" data-slide="prev" class="btn btn-success">
+                                    <span class="glyphicon glyphicon-chevron-left"></span>
+                                </a>
+                                <a href="#photoSlider2" data-slide="next" class="btn btn-success">
+                                    <span class="glyphicon glyphicon-chevron-right"></span>
+                                </a>
+                            </div>                  
+                        </div>                                             
+                    </div>              
+                </div>
+            </div>
+        </div>
         <!-- ///  end photos  /// -->
 
         <!-- ///  begin features  /// -->
-        <!--        <div class="theses" id="features">
-                    <div class="container">
-                        <div class="row text-center">
-                            <div class="col-md-3 wow bounceIn" data-wow-delay=".4s">
-                                <div class="icon-wrap">
-                                    <i class="icon-graduation-cap fa-3x"></i>
-                                </div>
-                                <h3>Scientific Session</h3>
-                                <hr>
-                                <p></p>
-                            </div>
-                            <div class="col-md-3 wow bounceIn" data-wow-delay=".6s">
-                                <div class="icon-wrap">
-                                    <i class="icon-lightbulb fa-3x"></i>
-                                </div>
-                                <h3>Workshops</h3>
-                                <hr>
-                                <p></p>
-                            </div>
-                            <div class="col-md-3 wow bounceIn" data-wow-delay=".8s">
-                                <div class="icon-wrap">
-                                    <i class="icon-videocam fa-3x"></i>
-                                </div>
-                                <h3>Poster Competition</h3>
-                                <hr>
-                                <p></p>
-                            </div>
-                            <div class="col-md-3 wow bounceIn" data-wow-delay="1s">
-                                <div class="icon-wrap">
-                                    <i class="icon-paper-plane fa-3x"></i>
-                                </div>
-                                <h3>Free Paper Competition</h3>
-                                <hr>
-                                <p></p>
-                            </div>              
+        <div class="theses" id="features">
+            <div class="container">
+                <div class="row text-center">
+                    <div class="col-md-3 wow bounceIn" data-wow-delay=".4s">
+                        <div class="icon-wrap">
+                            <i class="icon-graduation-cap fa-3x"></i>
                         </div>
+                        <h3>Scientific Session</h3>
+                        <hr>
+                        <p></p>
                     </div>
-                </div>-->
+                    <div class="col-md-3 wow bounceIn" data-wow-delay=".6s">
+                        <div class="icon-wrap">
+                            <i class="icon-lightbulb fa-3x"></i>
+                        </div>
+                        <h3>Workshops</h3>
+                        <hr>
+                        <p></p>
+                    </div>
+                    <div class="col-md-3 wow bounceIn" data-wow-delay=".8s">
+                        <div class="icon-wrap">
+                            <i class="icon-videocam fa-3x"></i>
+                        </div>
+                        <h3>Poster Competition</h3>
+                        <hr>
+                        <p></p>
+                    </div>
+                    <div class="col-md-3 wow bounceIn" data-wow-delay="1s">
+                        <div class="icon-wrap">
+                            <i class="icon-paper-plane fa-3x"></i>
+                        </div>
+                        <h3>Free Paper Competition</h3>
+                        <hr>
+                        <p></p>
+                    </div>              
+                </div>
+            </div>
+        </div>
         <!-- ///  end features  /// -->
 
         <!-- ///  begin speakers  /// -->
@@ -706,51 +725,122 @@ and open the template in the editor.
                 <div class="row">
                     <div class="col-sm-3 info-bg wow fadeInDown" data-wow-delay=".4s">
                         <header class="price-header">
-                            <h4>Before 31st March, 2016</h4>
+                            <h4>Student</h4>
                             <p>1200 INR</p>
                         </header>
                         <ul class="list-group">
                             <li class="list-group-item">
-                                <p class="pull-left">Student</p>
+                                <p class="pull-left">One day success</p>
                                 <p class="pull-right"><i class="fa fa-check primary-color fa-lg"></i></p>
                             </li> 
                             <li class="list-group-item">
-                                <p class="pull-left">Professionals</p>
+                                <p class="pull-left">Coffee Break</p>
                                 <p class="pull-right"><i class="fa fa-check primary-color fa-lg"></i></p>
                             </li> 
-
+                            <li class="list-group-item">
+                                <p class="pull-left">Seat</p>
+                                <p class="pull-right"><i class="fa fa-check primary-color fa-lg"></i></p>
+                            </li>    
+                            <li class="list-group-item">
+                                <p class="pull-left">Certificate</p>
+                                <p class="pull-right"><i class="fa fa-check primary-color fa-lg"></i></p>
+                            </li> 
+                            <li class="list-group-item">
+                                <p class="pull-left">Lorem</p>
+                                <p class="pull-right"><i class="fa fa-minus text-muted fa-lg"></i></p>
+                            </li>
+                            <li class="list-group-item">
+                                <p class="pull-left">Ipsum</p>
+                                <p class="pull-right"><i class="fa fa-minus text-muted fa-lg"></i></p>
+                            </li>
+                            <li class="list-group-item">
+                                <p class="pull-left">Dolor</p>
+                                <p class="pull-right"><i class="fa fa-minus text-muted fa-lg"></i></p>
+                            </li>
+                            <li class="list-group-item">
+                                <p class="pull-left">Sit</p>
+                                <p class="pull-right"><i class="fa fa-minus text-muted fa-lg"></i></p>
+                            </li>                              
                         </ul>                                
                     </div>
                     <div class="col-sm-3 success-bg wow fadeInUp" data-wow-delay=".8s">
                         <header class="price-header">
-                            <h4>After 31st March, 2016</h4>
+                            <h4>Professionals</h4>
                             <p>1500 INR</p>
                         </header>
                         <ul class="list-group">
-                                                        <li class="list-group-item">
-                                <p class="pull-left">Student</p>
-                                <p class="pull-right"><i class="fa fa-check primary-color fa-lg"></i></p>
+                            <li class="list-group-item">
+                                <p class="pull-left">One day success</p>
+                                <p class="pull-right"><i class="fa fa-check success-color fa-lg"></i></p>
                             </li> 
                             <li class="list-group-item">
-                                <p class="pull-left">Professionals</p>
-                                <p class="pull-right"><i class="fa fa-check primary-color fa-lg"></i></p>
-                            </li>                               
+                                <p class="pull-left">Coffee Break</p>
+                                <p class="pull-right"><i class="fa fa-check success-color fa-lg"></i></p>
+                            </li> 
+                            <li class="list-group-item">
+                                <p class="pull-left">Seat</p>
+                                <p class="pull-right"><i class="fa fa-check success-color fa-lg"></i></p>
+                            </li>    
+                            <li class="list-group-item">
+                                <p class="pull-left">Certificate</p>
+                                <p class="pull-right"><i class="fa fa-check success-color fa-lg"></i></p>
+                            </li> 
+                            <li class="list-group-item">
+                                <p class="pull-left">Lorem</p>
+                                <p class="pull-right"><i class="fa fa-check success-color fa-lg"></i></p>
+                            </li>
+                            <li class="list-group-item">
+                                <p class="pull-left">Ipsum</p>
+                                <p class="pull-right"><i class="fa fa-minus text-muted fa-lg"></i></p>
+                            </li>
+                            <li class="list-group-item">
+                                <p class="pull-left">Dolor</p>
+                                <p class="pull-right"><i class="fa fa-minus text-muted fa-lg"></i></p>
+                            </li>
+                            <li class="list-group-item">
+                                <p class="pull-left">Sit</p>
+                                <p class="pull-right"><i class="fa fa-minus text-muted fa-lg"></i></p>
+                            </li>                              
                         </ul>                
                     </div>
                     <div class="col-sm-3 danger-bg wow fadeInDown" data-wow-delay="1.2s">
                         <header class="price-header">
-                            <h4>Spot Registrations</h4>
+                            <h4>Opticians</h4>
                             <p>1500 INR</p>
                         </header>
                         <ul class="list-group">
-                                                        <li class="list-group-item">
-                                <p class="pull-left">Student</p>
-                                <p class="pull-right"><i class="fa fa-check primary-color fa-lg"></i></p>
+                            <li class="list-group-item">
+                                <p class="pull-left">One day success</p>
+                                <p class="pull-right"><i class="fa fa-check danger-color fa-lg"></i></p>
                             </li> 
                             <li class="list-group-item">
-                                <p class="pull-left">Professionals</p>
-                                <p class="pull-right"><i class="fa fa-check primary-color fa-lg"></i></p>
-                            </li>                                
+                                <p class="pull-left">Coffee Break</p>
+                                <p class="pull-right"><i class="fa fa-check danger-color fa-lg"></i></p>
+                            </li> 
+                            <li class="list-group-item">
+                                <p class="pull-left">Seat</p>
+                                <p class="pull-right"><i class="fa fa-check danger-color fa-lg"></i></p>
+                            </li>    
+                            <li class="list-group-item">
+                                <p class="pull-left">Certificate</p>
+                                <p class="pull-right"><i class="fa fa-check danger-color fa-lg"></i></p>
+                            </li>
+                            <li class="list-group-item">
+                                <p class="pull-left">Lorem</p>
+                                <p class="pull-right"><i class="fa fa-check danger-color fa-lg"></i></p>
+                            </li>
+                            <li class="list-group-item">
+                                <p class="pull-left">Ipsum</p>
+                                <p class="pull-right"><i class="fa fa-check danger-color fa-lg"></i></p>
+                            </li>
+                            <li class="list-group-item">
+                                <p class="pull-left">Dolor</p>
+                                <p class="pull-right"><i class="fa fa-minus text-muted fa-lg"></i></p>
+                            </li>
+                            <li class="list-group-item">
+                                <p class="pull-left">Sit</p>
+                                <p class="pull-right"><i class="fa fa-minus text-muted fa-lg"></i></p>
+                            </li>                               
                         </ul>                
                     </div>
                     <div class="col-sm-3 warning-bg wow fadeInUp" data-wow-delay="1.6s">
@@ -759,14 +849,38 @@ and open the template in the editor.
                             <p>200 INR</p>
                         </header>
                         <ul class="list-group">
-                                                        <li class="list-group-item">
-                                <p class="pull-left">Student</p>
-                                <p class="pull-right"><i class="fa fa-check primary-color fa-lg"></i></p>
+                            <li class="list-group-item">
+                                <p class="pull-left">One day success</p>
+                                <p class="pull-right"><i class="fa fa-check warning-color fa-lg"></i></p>
                             </li> 
                             <li class="list-group-item">
-                                <p class="pull-left">Professionals</p>
-                                <p class="pull-right"><i class="fa fa-check primary-color fa-lg"></i></p>
-                            </li>                               
+                                <p class="pull-left">Coffee Break</p>
+                                <p class="pull-right"><i class="fa fa-check warning-color fa-lg"></i></p>
+                            </li> 
+                            <li class="list-group-item">
+                                <p class="pull-left">Seat</p>
+                                <p class="pull-right"><i class="fa fa-check warning-color fa-lg"></i></p>
+                            </li>    
+                            <li class="list-group-item">
+                                <p class="pull-left">Certificate</p>
+                                <p class="pull-right"><i class="fa fa-check warning-color fa-lg"></i></p>
+                            </li> 
+                            <li class="list-group-item">
+                                <p class="pull-left">Lorem</p>
+                                <p class="pull-right"><i class="fa fa-check warning-color fa-lg"></i></p>
+                            </li>
+                            <li class="list-group-item">
+                                <p class="pull-left">Ipsum</p>
+                                <p class="pull-right"><i class="fa fa-check warning-color fa-lg"></i></p>
+                            </li>
+                            <li class="list-group-item">
+                                <p class="pull-left">Dolor</p>
+                                <p class="pull-right"><i class="fa fa-check warning-color fa-lg"></i></p>
+                            </li>
+                            <li class="list-group-item">
+                                <p class="pull-left">Sit</p>
+                                <p class="pull-right"><i class="fa fa-check warning-color fa-lg"></i></p>
+                            </li>                              
                         </ul>                
                     </div>              
                 </div>
@@ -781,6 +895,7 @@ and open the template in the editor.
                     <div class="col-md-4 wow fadeInLeft">
                         <h1>TEAM</h1>
 
+
                         <div class="photo-wrapper">
 
                             <div id="photoSlider1" class="carousel slide" data-ride="carousel">
@@ -794,52 +909,68 @@ and open the template in the editor.
                                     <div class="item">
                                         <img src="assets/img/team1.jpg" alt="">
                                     </div>                      
+                                    <div class="item">
+                                        <img src="assets/img/team1.jpg" alt="">
+                                    </div>                      
+
                                 </div>
                             </div>   
                         </div>
+
+
                     </div>
                     <div class="col-md-8 wow fadeInRight">
                         <div class="panel-group" id="faq">
                             <div class="panel">
                                 <a data-toggle="collapse" data-parent="#faq" href="#faq1">
-                                    Sushanta Chatterjee
+                                    Team Member name
                                 </a>
                                 <div id="faq1" class="panel-collapse collapse">
-                                    <p>Convenor</p>
+                                    <p>designation here </p>
                                 </div>
                             </div>
                             <div class="panel">
                                 <a data-toggle="collapse" data-parent="#faq" href="#faq2">
-                                    Debasish Kar
+                                    Team Member name
                                 </a>
                                 <div id="faq2" class="panel-collapse collapse">
-                                    <p>Chairman</p>
+                                    <p>designation here </p>
                                 </div>
                             </div>
                             <div class="panel">
                                 <a data-toggle="collapse" data-parent="#faq" href="#faq3">
-                                    Bholanath Sarkar
+                                    Team Member name
                                 </a>
                                 <div id="faq3" class="panel-collapse collapse">
-                                    <p>Organising Secretary</p>
+                                    <p>designation here </p>
                                 </div>
                             </div>
                             <div class="panel">
                                 <a data-toggle="collapse" data-parent="#faq" href="#faq4">
-                                    Jayanta Bhattacharyya
+                                    Team Member name
                                 </a>
                                 <div id="faq4" class="panel-collapse collapse">
-                                    <p>Scintific Commettee Chairman</p>
+                                    <p>designation here </p>
                                 </div>
                             </div>
                             <div class="panel">
                                 <a data-toggle="collapse" data-parent="#faq" href="#faq5">
-                                    Prosenjit Majumdar
+                                    Team Member name
                                 </a>
                                 <div id="faq5" class="panel-collapse collapse">
-                                    <p>Treasurer</p>
+                                    <p>designation here </p>
                                 </div>
                             </div>
+                            <div class="panel">
+                                <a data-toggle="collapse" data-parent="#faq" href="#faq6">
+                                    Team Member name
+                                </a>
+                                <div id="faq6" class="panel-collapse collapse">
+                                    <p>designation here </p>
+                                </div>
+                            </div>
+
+
                         </div>                
                     </div>
                 </div>
@@ -1157,14 +1288,14 @@ and open the template in the editor.
 
         <!-- ///  start script  /// -->
         <!-- ///  libs  /// -->
-        <!--<script type="text/javascript" src="https://maps.googleapis.com/maps/api/js"></script>-->        
+        <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js"></script>        
         <script type="text/javascript" src="assets/js/modernizr-latest.js"></script>        
         <script type="text/javascript" src="assets/js/jquery-1.11.0.min.js"></script>     
         <script type="text/javascript" src="assets/js/bootstrap.min.js"></script>   
         <!-- ///  plugins  /// -->
         <script type="text/javascript" src="assets/js/jquery.fitvids.js"></script>
         <script type="text/javascript" src="assets/js/bootstrap-select.min.js"></script>
-        <!--<script type="text/javascript" src="assets/js/gmap3.min.js"></script>-->
+        <script type="text/javascript" src="assets/js/gmap3.min.js"></script>
         <script type="text/javascript" src="assets/js/jquery.scrollTo.js"></script>
         <script type="text/javascript" src="assets/js/jquery.nav.js"></script>
         <script type="text/javascript" src="assets/js/countdown.js"></script>
@@ -1174,13 +1305,13 @@ and open the template in the editor.
         <script type="text/javascript" src="assets/js/wow.min.js"></script>        
         <script type="text/javascript" src="assets/js/main.js"></script>      
         <script type="text/javascript">
-            $(document).ready(function () {
+            $(document).ready(function() {
                 //Events that reset and restart the timer animation when the slides change
-                $("#transition-timer-carousel").on("slide.bs.carousel", function (event) {
+                $("#transition-timer-carousel").on("slide.bs.carousel", function(event) {
                     //The animate class gets removed so that it jumps straight back to 0%
                     $(".transition-timer-carousel-progress-bar", this)
                             .removeClass("animate").css("width", "0%");
-                }).on("slid.bs.carousel", function (event) {
+                }).on("slid.bs.carousel", function(event) {
                     //The slide transition finished, so re-add the animate class so that
                     //the timer bar takes time to fill up
                     $(".transition-timer-carousel-progress-bar", this)
@@ -1191,11 +1322,11 @@ and open the template in the editor.
                 $(".transition-timer-carousel-progress-bar", "#transition-timer-carousel")
                         .css("width", "100%");
                 // Code for PDf genaration
-                $('#button1id').click(function () {
+                $('#button1id').click(function() {
 
 //              Checking for checkbox
                     var stringchk = "";
-                    $(":checkbox").each(function () {
+                    $(":checkbox").each(function() {
                         $(this).prop('checked') ? stringchk += $(this).val() + ", " : "N/A";
                     });
                     console.log(stringchk);
