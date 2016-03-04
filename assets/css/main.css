@@ -1405,3 +1405,8 @@ fieldset[disabled] .btn-link:focus {
 .li-koc {
     cursor: pointer;
 }
+
+.li-koc-partner {
+    padding-left: 10px;
+    padding-right: 10px;
+}
