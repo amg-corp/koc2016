@@ -413,7 +413,7 @@ and open the template in the editor.
                                 </div>
                             </div>
                             <div class="item">
-                                <img src="assets/img/Slider/St_Paul’s_cathedral_1.jpg" />
+                                <img src="assets/img/Slider/St_Pauls_cathedral_1.jpg" />
                                 <div class="carousel-caption">
                                     <h1 class="carousel-caption-header">ST. Paul's Cathedral</h1>
                                     <p class="carousel-caption-text hidden-sm hidden-xs">
@@ -1181,6 +1181,7 @@ and open the template in the editor.
                         $("#li-koc-before-stu i").attr("class", "fa fa-dot-circle-o primary-color fa-lg");
                         $befStud = 1000;
                         $("#li-koc-before-stu i").parent().parent().parent().parent().children("header").children("p").text($befStud + " INR");
+                        $("#li-koc-before-pro i").attr("class", "fa fa-circle-o primary-color fa-lg");
                     } else if (length === 4) {
                         $("#li-koc-before-stu i").attr("class", "fa fa-circle-o primary-color fa-lg");
                         $befStud = "N/A";
@@ -1195,6 +1196,7 @@ and open the template in the editor.
                         $befProf = $befStud + 500;
                         $("#li-koc-before-pro i").attr("class", "fa fa-dot-circle-o primary-color fa-lg");
                         $("#li-koc-before-pro i").parent().parent().parent().parent().children("header").children("p").text($befProf + " INR");
+                        $("#li-koc-before-stu i").attr("class", "fa fa-circle-o primary-color fa-lg");
                     } else if (length === 4) {
                         $("#li-koc-before-pro i").attr("class", "fa fa-circle-o primary-color fa-lg");
                         $("#li-koc-before-pro i").parent().parent().parent().parent().children("header").children("p").text($befStud + " INR");
@@ -1206,8 +1208,9 @@ and open the template in the editor.
                     var length = $temp.split("-").length;
                     if (length === 3) {
                         $("#li-koc-after-stu i").attr("class", "fa fa-dot-circle-o primary-color fa-lg");
-                        $befStud = 1000;
+                        $befStud = 1500;
                         $("#li-koc-after-stu i").parent().parent().parent().parent().children("header").children("p").text($befStud + " INR");
+                        $("#li-koc-after-pro i").attr("class", "fa fa-circle-o primary-color fa-lg");
                     } else if (length === 4) {
                         $("#li-koc-after-stu i").attr("class", "fa fa-circle-o primary-color fa-lg");
                         $befStud = "N/A";
@@ -1220,8 +1223,9 @@ and open the template in the editor.
                     var length = $temp.split("-").length;
                     if (length === 3) {
                         $("#li-koc-after-pro i").attr("class", "fa fa-dot-circle-o primary-color fa-lg");
-                        $befStud = 1000;
+                        $befStud = 2000;
                         $("#li-koc-after-pro i").parent().parent().parent().parent().children("header").children("p").text($befStud + " INR");
+                        $("#li-koc-after-stu i").attr("class", "fa fa-circle-o primary-color fa-lg");
                     } else if (length === 4) {
                         $("#li-koc-after-pro i").attr("class", "fa fa-circle-o primary-color fa-lg");
                         $befStud = "N/A";
@@ -1234,8 +1238,9 @@ and open the template in the editor.
                     var length = $temp.split("-").length;
                     if (length === 3) {
                         $("#li-koc-Spot-stu i").attr("class", "fa fa-dot-circle-o primary-color fa-lg");
-                        $befStud = 1000;
+                        $befStud = 2000;
                         $("#li-koc-Spot-stu i").parent().parent().parent().parent().children("header").children("p").text($befStud + " INR");
+                        $("#li-koc-Spot-pro i").attr("class", "fa fa-circle-o primary-color fa-lg");
                     } else if (length === 4) {
                         $("#li-koc-Spot-stu i").attr("class", "fa fa-circle-o primary-color fa-lg");
                         $befStud = "N/A";
@@ -1248,8 +1253,9 @@ and open the template in the editor.
                     var length = $temp.split("-").length;
                     if (length === 3) {
                         $("#li-koc-Spot-pro i").attr("class", "fa fa-dot-circle-o primary-color fa-lg");
-                        $befStud = 1000;
+                        $befStud = 2000;
                         $("#li-koc-Spot-pro i").parent().parent().parent().parent().children("header").children("p").text($befStud + " INR");
+                        $("#li-koc-Spot-stu i").attr("class", "fa fa-circle-o primary-color fa-lg");
                     } else if (length === 4) {
                         $("#li-koc-Spot-pro i").attr("class", "fa fa-circle-o primary-color fa-lg");
                         $befStud = "N/A";
@@ -1262,8 +1268,9 @@ and open the template in the editor.
                     var length = $temp.split("-").length;
                     if (length === 3) {
                         $("#li-koc-work-stu i").attr("class", "fa fa-dot-circle-o primary-color fa-lg");
-                        $befStud = 1000;
+                        $befStud = 200;
                         $("#li-koc-work-stu i").parent().parent().parent().parent().children("header").children("p").text($befStud + " INR");
+                        $("#li-koc-work-pro i").attr("class", "fa fa-circle-o primary-color fa-lg");
                     } else if (length === 4) {
                         $("#li-koc-work-stu i").attr("class", "fa fa-circle-o primary-color fa-lg");
                         $befStud = "N/A";
@@ -1276,11 +1283,12 @@ and open the template in the editor.
                     var length = $temp.split("-").length;
                     if (length === 3) {
                         $("#li-koc-work-pro i").attr("class", "fa fa-dot-circle-o primary-color fa-lg");
-                        $befStud = 2000;
+                        $befStud = 200;
                         $("#li-koc-work-pro i").parent().parent().parent().parent().children("header").children("p").text($befStud + " INR");
+                        $("#li-koc-work-stu i").attr("class", "fa fa-circle-o primary-color fa-lg");
                     } else if (length === 4) {
                         $("#li-koc-work-pro i").attr("class", "fa fa-circle-o primary-color fa-lg");
-                        $befStud = 1500;
+                        $befStud = "N/A";
                         $("#li-koc-work-pro i").parent().parent().parent().parent().children("header").children("p").text($befStud);
                     }
                 });
