@@ -104,7 +104,7 @@
     // Preloader
     function preloader() {
       $(window).load(function () {
-        $(".preloader").fadeOut()
+        $("#preLoader").fadeOut()
         $("body").removeClass("remove-scroll")
       });
     }
