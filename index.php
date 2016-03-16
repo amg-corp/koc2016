@@ -56,7 +56,7 @@ include './includes/payment_init.php';
         </div>     
 
         <div style='display: <?php echo sizeof($posted) > 0 ? "none" : "block" ?>'> >
-<!--             > 0 ? "none;" : "block;" -->
+            <!--             > 0 ? "none;" : "block;" -->
             <!-- ///  begin header  /// -->
             <header class="main-header" style="margin-top: -42px;">
                 <nav class="navbar navbar-custom navbar-fixed-top" role="navigation">
@@ -200,14 +200,14 @@ include './includes/payment_init.php';
                                         <div class="panel panel-default">
                                             <div class="panel-heading">
                                                 <h4 class="panel-title">
-                                                    <a data-toggle="collapse" data-parent="#accordion2" href="#collapseOne2">
-                                                        9:00 AM - Inauguration
+                                                    <a data-toggle="collapse" data-parent="#accordion2" href="#section1">
+                                                        8.30 am to 10.00 am - Registration & Welcome Breakfast
                                                     </a>
                                                 </h4>
                                             </div>
-                                            <div id="collapseOne2" class="panel-collapse collapse">
+                                            <div id="section1" class="panel-collapse collapse">
                                                 <div class="panel-body">
-                                                    <h4>Scientific Session 3</h4>
+                                                    <h4>Visit of stall, Posters, Models and Trade visit by Guests with Chairman.</h4>
                                                 </div>
                                             </div>
                                         </div>
@@ -216,7 +216,7 @@ include './includes/payment_init.php';
                                             <div class="panel-heading">
                                                 <h4 class="panel-title">
                                                     <a data-toggle="collapse" data-parent="#accordion2" href="#collapseThree2">
-                                                        10:00 PM - Scientific Session 1
+                                                        11.00am to 11.20am - KEY NOTE SPEECH "Indian Optometry Current Landscape & from where to here" By VINOD DANIEL
                                                     </a>
                                                 </h4>
                                             </div>
@@ -230,7 +230,7 @@ include './includes/payment_init.php';
                                             <div class="panel-heading">
                                                 <h4 class="panel-title">
                                                     <a data-toggle="collapse" data-parent="#accordion2" href="#collapseThree2">
-                                                        12:00 PM - Lunch
+                                                        11.20am to 11.30am - "Optometry Today & in the Future" By Lakshmi Shinde.
                                                     </a>
                                                 </h4>
                                             </div>
@@ -244,7 +244,7 @@ include './includes/payment_init.php';
                                             <div class="panel-heading">
                                                 <h4 class="panel-title">
                                                     <a data-toggle="collapse" data-parent="#accordion2" href="#collapseThree2">
-                                                        2:00 PM - Scientific Session 2
+                                                        11.30am to 12.00am - "Effectiveness of LowVision Rehabilitation Services" By Vijaya Kumari
                                                     </a>
                                                 </h4>
                                             </div>
@@ -258,7 +258,274 @@ include './includes/payment_init.php';
                                             <div class="panel-heading">
                                                 <h4 class="panel-title">
                                                     <a data-toggle="collapse" data-parent="#accordion2" href="#collapseThree2">
-                                                        5:00 PM - High Tea
+                                                        12.00am to 12.15pm - Session by Amod Gogate
+                                                    </a>
+                                                </h4>
+                                            </div>
+                                            <div id="collapseThree" class="panel-collapse collapse">
+                                                <div class="panel-body">
+                                                    <h4>Scientific Session 4</h4>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="panel panel-default">
+                                            <div class="panel-heading">
+                                                <h4 class="panel-title">
+                                                    <a data-toggle="collapse" data-parent="#accordion2" href="#collapseThree2">
+                                                        12.15pm to 12.35pm - "When Treatment is BIZZARE" by Dr Nibaran Gangopadhyay
+                                                    </a>
+                                                </h4>
+                                            </div>
+                                            <div id="collapseThree" class="panel-collapse collapse">
+                                                <div class="panel-body">
+                                                    <h4>Scientific Session 4</h4>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="panel panel-default">
+                                            <div class="panel-heading">
+                                                <h4 class="panel-title">
+                                                    <a data-toggle="collapse" data-parent="#accordion2" href="#collapseThree2">
+                                                        12.35pm - 1.20pm - TRADE FAIR, MODEL, POSTER VISIT
+                                                    </a>
+                                                </h4>
+                                            </div>
+                                            <div id="collapseThree" class="panel-collapse collapse">
+                                                <div class="panel-body">
+                                                    <h4>Scientific Session 4</h4>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="panel panel-default">
+                                            <div class="panel-heading">
+                                                <h4 class="panel-title">
+                                                    <a data-toggle="collapse" data-parent="#accordion2" href="#collapseThree2">
+                                                        1.20pm to 2.30 PM - Lunch Break
+                                                    </a>
+                                                </h4>
+                                            </div>
+                                            <div id="collapseThree" class="panel-collapse collapse">
+                                                <div class="panel-body">
+                                                    <h4>Scientific Session 4</h4>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="panel panel-default">
+                                            <div class="panel-heading">
+                                                <h4 class="panel-title">
+                                                    <a data-toggle="collapse" data-parent="#accordion2" href="#section3">
+                                                        2.30pm to 3.30pm - Talk Show Sub "Optometry Practice - barriers & opportunities".
+                                                    </a>
+                                                </h4>
+                                            </div>
+                                            <div id="section3" class="panel-collapse collapse">
+                                                <div class="panel-body">
+                                                    <h4>Moderator chair: Nilesh Thite
+                                                        Co chairs:  – Yeshwant Saoji, Lakshmi Shinde, Amod Gogate, Vijaya Kumari, Monica Chaudhry</h4>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="panel panel-default">
+                                            <div class="panel-heading">
+                                                <h4 class="panel-title">
+                                                    <a data-toggle="collapse" data-parent="#accordion2" href="#collapseThree2">
+                                                        3.30pm - 4.30pm - Individual selected Paper from Professional and Faculty | Moderator Sunita Sarkar.
+                                                    </a>
+                                                </h4>
+                                            </div>
+                                            <div id="collapseThree" class="panel-collapse collapse">
+                                                <div class="panel-body">
+                                                    <h4>Scientific Session 4</h4>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="panel panel-default">
+                                            <div class="panel-heading">
+                                                <h4 class="panel-title">
+                                                    <a data-toggle="collapse" data-parent="#accordion2" href="#collapseThree2">
+                                                        3.30pm - 4.30pm - Individual selected Paper from Professional and Faculty | Moderator Sunita Sarkar.
+                                                    </a>
+                                                </h4>
+                                            </div>
+                                            <div id="collapseThree" class="panel-collapse collapse">
+                                                <div class="panel-body">
+                                                    <h4>Scientific Session 4</h4>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="panel panel-default">
+                                            <div class="panel-heading">
+                                                <h4 class="panel-title">
+                                                    <a data-toggle="collapse" data-parent="#accordion2" href="#collapseThree2">
+                                                        3.30pm - 3.40pm - "Prevalence of Amblyopia in patients with Congenital Ptosis" by Janitha Ravibabu
+                                                    </a>
+                                                </h4>
+                                            </div>
+                                            <div id="collapseThree" class="panel-collapse collapse">
+                                                <div class="panel-body">
+                                                    <h4>Scientific Session 4</h4>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="panel panel-default">
+                                            <div class="panel-heading">
+                                                <h4 class="panel-title">
+                                                    <a data-toggle="collapse" data-parent="#accordion2" href="#collapseThree2">
+                                                        3.30pm - 3.40pm - "Prevalence of Amblyopia in patients with Congenital Ptosis" by Janitha Ravibabu
+                                                    </a>
+                                                </h4>
+                                            </div>
+                                            <div id="collapseThree" class="panel-collapse collapse">
+                                                <div class="panel-body">
+                                                    <h4>Scientific Session 4</h4>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="panel panel-default">
+                                            <div class="panel-heading">
+                                                <h4 class="panel-title">
+                                                    <a data-toggle="collapse" data-parent="#accordion2" href="#collapseThree2">
+                                                        3.40pm - 3.50pm - "Early Presbyopia-A Psychosomatic Disorder" by Sarbind Kumar Yadav:
+                                                    </a>
+                                                </h4>
+                                            </div>
+                                            <div id="collapseThree" class="panel-collapse collapse">
+                                                <div class="panel-body">
+                                                    <h4>Scientific Session 4</h4>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="panel panel-default">
+                                            <div class="panel-heading">
+                                                <h4 class="panel-title">
+                                                    <a data-toggle="collapse" data-parent="#accordion2" href="#collapseThree2">
+                                                        3.50pm - 4.00pm - "To determine the incidence & risk factor of ocular trauma in children." by Jayant Jha
+                                                    </a>
+                                                </h4>
+                                            </div>
+                                            <div id="collapseThree" class="panel-collapse collapse">
+                                                <div class="panel-body">
+                                                    <h4>Scientific Session 4</h4>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="panel panel-default">
+                                            <div class="panel-heading">
+                                                <h4 class="panel-title">
+                                                    <a data-toggle="collapse" data-parent="#accordion2" href="#collapseThree2">
+                                                        4.00pm - 4.10pm - "A study to compare contrast sensitivity between monofocal and multifocal lens implanted eyes after Phaco.” by Pinaki Adak 
+                                                    </a>
+                                                </h4>
+                                            </div>
+                                            <div id="collapseThree" class="panel-collapse collapse">
+                                                <div class="panel-body">
+                                                    <h4>Scientific Session 4</h4>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="panel panel-default">
+                                            <div class="panel-heading">
+                                                <h4 class="panel-title">
+                                                    <a data-toggle="collapse" data-parent="#accordion2" href="#collapseThree2">
+                                                        4.10pm - 4.20pm - "Spectacle & Lenses in India." by Pablo Chandra
+                                                    </a>
+                                                </h4>
+                                            </div>
+                                            <div id="collapseThree" class="panel-collapse collapse">
+                                                <div class="panel-body">
+                                                    <h4>Scientific Session 4</h4>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="panel panel-default">
+                                            <div class="panel-heading">
+                                                <h4 class="panel-title">
+                                                    <a data-toggle="collapse" data-parent="#accordion2" href="#collapseThree2">
+                                                        4.20pm - 4.30pm - "Should we treat Adult Amblyopia?" by Archayeeta
+                                                    </a>
+                                                </h4>
+                                            </div>
+                                            <div id="collapseThree" class="panel-collapse collapse">
+                                                <div class="panel-body">
+                                                    <h4>Scientific Session 4</h4>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="panel panel-default">
+                                            <div class="panel-heading">
+                                                <h4 class="panel-title">
+                                                    <a data-toggle="collapse" data-parent="#accordion2" href="#collapseThree2">
+                                                        4.30pm - 4.40pm - Discussion and Felicitation
+                                                    </a>
+                                                </h4>
+                                            </div>
+                                            <div id="collapseThree" class="panel-collapse collapse">
+                                                <div class="panel-body">
+                                                    <h4>Scientific Session 4</h4>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="panel panel-default">
+                                            <div class="panel-heading">
+                                                <h4 class="panel-title">
+                                                    <a data-toggle="collapse" data-parent="#accordion2" href="#collapseThree2">
+                                                        4.30pm - 4.40pm - Discussion and Felicitation
+                                                    </a>
+                                                </h4>
+                                            </div>
+                                            <div id="collapseThree" class="panel-collapse collapse">
+                                                <div class="panel-body">
+                                                    <h4>Scientific Session 4</h4>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="panel panel-default">
+                                            <div class="panel-heading">
+                                                <h4 class="panel-title">
+                                                    <a data-toggle="collapse" data-parent="#accordion2" href="#collapseThree2">
+                                                        4.40pm to 5.00pm - KEY Note Speech "Upscalling Spectacle Dispensing" by Yeshwant Saoji  
+                                                    </a>
+                                                </h4>
+                                            </div>
+                                            <div id="collapseThree" class="panel-collapse collapse">
+                                                <div class="panel-body">
+                                                    <h4>Scientific Session 4</h4>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="panel panel-default">
+                                            <div class="panel-heading">
+                                                <h4 class="panel-title">
+                                                    <a data-toggle="collapse" data-parent="#accordion2" href="#collapseThree2">
+                                                        5.00pm to 5.30pm - Tea/Coffee Break
+                                                    </a>
+                                                </h4>
+                                            </div>
+                                            <div id="collapseThree" class="panel-collapse collapse">
+                                                <div class="panel-body">
+                                                    <h4>Scientific Session 4</h4>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="panel panel-default">
+                                            <div class="panel-heading">
+                                                <h4 class="panel-title">
+                                                    <a data-toggle="collapse" data-parent="#accordion2" href="#collapseThree2">
+                                                        5.30pm to 7.00pm - Cultural Programme "ENJOY" by KOC 2016 Team.
+                                                    </a>
+                                                </h4>
+                                            </div>
+                                            <div id="collapseThree" class="panel-collapse collapse">
+                                                <div class="panel-body">
+                                                    <h4>Scientific Session 4</h4>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="panel panel-default">
+                                            <div class="panel-heading">
+                                                <h4 class="panel-title">
+                                                    <a data-toggle="collapse" data-parent="#accordion2" href="#collapseThree2">
+                                                        7.00pm - Dinner
                                                     </a>
                                                 </h4>
                                             </div>
@@ -278,7 +545,7 @@ include './includes/payment_init.php';
                                             <div class="panel-heading">
                                                 <h4 class="panel-title">
                                                     <a data-toggle="collapse" data-parent="#accordion2" href="#collapseOne2">
-                                                        9:00 AM - Scientific Session 3
+                                                        Breakfast 8.30am onwards
                                                     </a>
                                                 </h4>
                                             </div>
@@ -293,21 +560,7 @@ include './includes/payment_init.php';
                                             <div class="panel-heading">
                                                 <h4 class="panel-title">
                                                     <a data-toggle="collapse" data-parent="#accordion2" href="#collapseThree2">
-                                                        12:00 PM - Lunch
-                                                    </a>
-                                                </h4>
-                                            </div>
-                                            <div id="collapseThree" class="panel-collapse collapse">
-                                                <div class="panel-body">
-                                                    <h4>Lunch</h4>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="panel panel-default">
-                                            <div class="panel-heading">
-                                                <h4 class="panel-title">
-                                                    <a data-toggle="collapse" data-parent="#accordion2" href="#collapseThree2">
-                                                        2:00 PM - Scientific Session 4
+                                                        10am - 10.40am - "Optometry & Scope of Research" by Dr. Shrikant Bharadwaj 
                                                     </a>
                                                 </h4>
                                             </div>
@@ -321,7 +574,7 @@ include './includes/payment_init.php';
                                             <div class="panel-heading">
                                                 <h4 class="panel-title">
                                                     <a data-toggle="collapse" data-parent="#accordion2" href="#collapseThree2">
-                                                        6:00 PM - Optometry Quiz
+                                                        10.40 to 12.30 - Contact Lens Sessions Chair by Amod S Gogate.
                                                     </a>
                                                 </h4>
                                             </div>
@@ -335,7 +588,316 @@ include './includes/payment_init.php';
                                             <div class="panel-heading">
                                                 <h4 class="panel-title">
                                                     <a data-toggle="collapse" data-parent="#accordion2" href="#collapseThree2">
-                                                        7:00 PM - Closing Ceremony
+                                                        10.40am to 10.55am - Speaker: Lakshmi Shinde.
+                                                    </a>
+                                                </h4>
+                                            </div>
+                                            <div id="collapseThree" class="panel-collapse collapse">
+                                                <div class="panel-body">
+                                                    <h4>Scientific Session 4</h4>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="panel panel-default">
+                                            <div class="panel-heading">
+                                                <h4 class="panel-title">
+                                                    <a data-toggle="collapse" data-parent="#accordion2" href="#collapseThree2">
+                                                        10.55am to 11.10am - Speaker Monica Choudhry
+                                                    </a>
+                                                </h4>
+                                            </div>
+                                            <div id="collapseThree" class="panel-collapse collapse">
+                                                <div class="panel-body">
+                                                    <h4>Scientific Session 4</h4>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="panel panel-default">
+                                            <div class="panel-heading">
+                                                <h4 class="panel-title">
+                                                    <a data-toggle="collapse" data-parent="#accordion2" href="#collapseThree2">
+                                                        11.10am to 11.25am - Speaker Yeshwant Saoji
+                                                    </a>
+                                                </h4>
+                                            </div>
+                                            <div id="collapseThree" class="panel-collapse collapse">
+                                                <div class="panel-body">
+                                                    <h4>Scientific Session 4</h4>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="panel panel-default">
+                                            <div class="panel-heading">
+                                                <h4 class="panel-title">
+                                                    <a data-toggle="collapse" data-parent="#accordion2" href="#collapseThree2">
+                                                        11.25am to 11.40am - Speaker: Amod Gogate
+                                                    </a>
+                                                </h4>
+                                            </div>
+                                            <div id="collapseThree" class="panel-collapse collapse">
+                                                <div class="panel-body">
+                                                    <h4>Scientific Session 4</h4>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="panel panel-default">
+                                            <div class="panel-heading">
+                                                <h4 class="panel-title">
+                                                    <a data-toggle="collapse" data-parent="#accordion2" href="#collapseThree2">
+                                                        11.40am to 11.55am - Speaker: Nilesh Thite                                                    
+                                                    </a>
+                                                </h4>
+                                            </div>
+                                            <div id="collapseThree" class="panel-collapse collapse">
+                                                <div class="panel-body">
+                                                    <h4>Scientific Session 4</h4>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="panel panel-default">
+                                            <div class="panel-heading">
+                                                <h4 class="panel-title">
+                                                    <a data-toggle="collapse" data-parent="#accordion2" href="#collapseThree2">
+                                                        11.55am to 12.10am - Speaker: Jyoti Dave Singh
+                                                    </a>
+                                                </h4>
+                                            </div>
+                                            <div id="collapseThree" class="panel-collapse collapse">
+                                                <div class="panel-body">
+                                                    <h4>Scientific Session 4</h4>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="panel panel-default">
+                                            <div class="panel-heading">
+                                                <h4 class="panel-title">
+                                                    <a data-toggle="collapse" data-parent="#accordion2" href="#collapseThree2">
+                                                        12.10am to 12.30 - Discussions and Felicitation.
+                                                    </a>
+                                                </h4>
+                                            </div>
+                                            <div id="collapseThree" class="panel-collapse collapse">
+                                                <div class="panel-body">
+                                                    <h4>Scientific Session 4</h4>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="panel panel-default">
+                                            <div class="panel-heading">
+                                                <h4 class="panel-title">
+                                                    <a data-toggle="collapse" data-parent="#accordion2" href="#collapseThree2">
+                                                        12.30pm - 1.15pm - Sponsors' Slot 15 minutes each 3 slots: Moderator -Sakuntala Das
+                                                    </a>
+                                                </h4>
+                                            </div>
+                                            <div id="collapseThree" class="panel-collapse collapse">
+                                                <div class="panel-body">
+                                                    <h4>Scientific Session 4</h4>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="panel panel-default">
+                                            <div class="panel-heading">
+                                                <h4 class="panel-title">
+                                                    <a data-toggle="collapse" data-parent="#accordion2" href="#collapseThree2">
+                                                        1.15pm to 2.30pm - LUNCH BREAK  
+                                                    </a>
+                                                </h4>
+                                            </div>
+                                            <div id="collapseThree" class="panel-collapse collapse">
+                                                <div class="panel-body">
+                                                    <h4>Scientific Session 4</h4>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="panel panel-default">
+                                            <div class="panel-heading">
+                                                <h4 class="panel-title">
+                                                    <a data-toggle="collapse" data-parent="#accordion2" href="#collapseThree2">
+                                                        2.30am to 3.00pm - Individual selected paper presentation maximum 3 for professionals & faculties
+                                                    </a>
+                                                </h4>
+                                            </div>
+                                            <div id="collapseThree" class="panel-collapse collapse">
+                                                <div class="panel-body">
+                                                    <h4>Scientific Session 4</h4>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="panel panel-default">
+                                            <div class="panel-heading">
+                                                <h4 class="panel-title">
+                                                    <a data-toggle="collapse" data-parent="#accordion2" href="#collapseThree2">
+                                                        2.30pm - 2.40pm - "Scleral Lenses: An Overview" By Pradipta Bhattacharyya 
+                                                    </a>
+                                                </h4>
+                                            </div>
+                                            <div id="collapseThree" class="panel-collapse collapse">
+                                                <div class="panel-body">
+                                                    <h4>Scientific Session 4</h4>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="panel panel-default">
+                                            <div class="panel-heading">
+                                                <h4 class="panel-title">
+                                                    <a data-toggle="collapse" data-parent="#accordion2" href="#collapseThree2">
+                                                        2.40pm - 2.50pm - "Ocular Prosthesis" By Sumitra Aggarwal
+                                                    </a>
+                                                </h4>
+                                            </div>
+                                            <div id="collapseThree" class="panel-collapse collapse">
+                                                <div class="panel-body">
+                                                    <h4>Scientific Session 4</h4>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="panel panel-default">
+                                            <div class="panel-heading">
+                                                <h4 class="panel-title">
+                                                    <a data-toggle="collapse" data-parent="#accordion2" href="#collapseThree2">
+                                                        2.50pm - 3.00pm - Video on "Rehabilitation of low vision & the Blind" By Sunita Sarkar  
+                                                    </a>
+                                                </h4>
+                                            </div>
+                                            <div id="collapseThree" class="panel-collapse collapse">
+                                                <div class="panel-body">
+                                                    <h4>Scientific Session 4</h4>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="panel panel-default">
+                                            <div class="panel-heading">
+                                                <h4 class="panel-title">
+                                                    <a data-toggle="collapse" data-parent="#accordion2" href="#collapseThree2">
+                                                        3.00pm - 3.10pm - Discussion & Felicitation
+                                                    </a>
+                                                </h4>
+                                            </div>
+                                            <div id="collapseThree" class="panel-collapse collapse">
+                                                <div class="panel-body">
+                                                    <h4>Scientific Session 4</h4>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="panel panel-default">
+                                            <div class="panel-heading">
+                                                <h4 class="panel-title">
+                                                    <a data-toggle="collapse" data-parent="#accordion2" href="#collapseThree2">
+                                                        3.00pm - 4.10pm - STUDENT'S FREE PAPER SESSION 10nos (Hall 2)
+                                                    </a>
+                                                </h4>
+                                            </div>
+                                            <div id="collapseThree" class="panel-collapse collapse">
+                                                <div class="panel-body">
+                                                    <h4>Scientific Session 4</h4>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="panel panel-default">
+                                            <div class="panel-heading">
+                                                <h4 class="panel-title">
+                                                    <a data-toggle="collapse" data-parent="#accordion2" href="#collapseThree2">
+                                                        3.10pm to 3.55pm - Sponsors' Slot 15 minutes each 3 slots | Moderator: Sakuntala Das 
+                                                    </a>
+                                                </h4>
+                                            </div>
+                                            <div id="collapseThree" class="panel-collapse collapse">
+                                                <div class="panel-body">
+                                                    <h4>Scientific Session 4</h4>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="panel panel-default">
+                                            <div class="panel-heading">
+                                                <h4 class="panel-title">
+                                                    <a data-toggle="collapse" data-parent="#accordion2" href="#collapseThree2">
+                                                        4.00pm - 4.15pm: Key note Speech Dr. Partha Biswas "Role of Optometrists in Advanced Eye Care Management"
+                                                    </a>
+                                                </h4>
+                                            </div>
+                                            <div id="collapseThree" class="panel-collapse collapse">
+                                                <div class="panel-body">
+                                                    <h4>Scientific Session 4</h4>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="panel panel-default">
+                                            <div class="panel-heading">
+                                                <h4 class="panel-title">
+                                                    <a data-toggle="collapse" data-parent="#accordion2" href="#collapseThree2">
+                                                        4.15pm - 4.30pm - "Diabetic Retinopathy- early diagnosis & When to treat?"  By Dr. Chirag Bhatt
+                                                    </a>
+                                                </h4>
+                                            </div>
+                                            <div id="collapseThree" class="panel-collapse collapse">
+                                                <div class="panel-body">
+                                                    <h4>Scientific Session 4</h4>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="panel panel-default">
+                                            <div class="panel-heading">
+                                                <h4 class="panel-title">
+                                                    <a data-toggle="collapse" data-parent="#accordion2" href="#collapseThree2">
+                                                        4.10 - 4.30pm: Discussion & Prize Distribution (Hall 2)
+                                                    </a>
+                                                </h4>
+                                            </div>
+                                            <div id="collapseThree" class="panel-collapse collapse">
+                                                <div class="panel-body">
+                                                    <h4>Scientific Session 4</h4>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="panel panel-default">
+                                            <div class="panel-heading">
+                                                <h4 class="panel-title">
+                                                    <a data-toggle="collapse" data-parent="#accordion2" href="#collapseThree2">
+                                                        4.30pm - 4.45pm - Pearls of KOC’2016 Sunita Sarkar
+                                                    </a>
+                                                </h4>
+                                            </div>
+                                            <div id="collapseThree" class="panel-collapse collapse">
+                                                <div class="panel-body">
+                                                    <h4>Scientific Session 4</h4>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="panel panel-default">
+                                            <div class="panel-heading">
+                                                <h4 class="panel-title">
+                                                    <a data-toggle="collapse" data-parent="#accordion2" href="#collapseThree2">
+                                                        4.45pm - 5.15pm - QUIZ 
+                                                    </a>
+                                                </h4>
+                                            </div>
+                                            <div id="collapseThree" class="panel-collapse collapse">
+                                                <div class="panel-body">
+                                                    <h4>Scientific Session 4</h4>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="panel panel-default">
+                                            <div class="panel-heading">
+                                                <h4 class="panel-title">
+                                                    <a data-toggle="collapse" data-parent="#accordion2" href="#collapseThree2">
+                                                        5.15pm - 6.00pm - Closing Ceremony
+                                                    </a>
+                                                </h4>
+                                            </div>
+                                            <div id="collapseThree" class="panel-collapse collapse">
+                                                <div class="panel-body">
+                                                    <h4>Scientific Session 4</h4>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="panel panel-default">
+                                            <div class="panel-heading">
+                                                <h4 class="panel-title">
+                                                    <a data-toggle="collapse" data-parent="#accordion2" href="#collapseThree2">
+                                                        6.00pm onwards Cultural Programme organised by S.S.Exhibitors
                                                     </a>
                                                 </h4>
                                             </div>
