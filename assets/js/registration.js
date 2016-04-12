@@ -11,8 +11,8 @@ $(document).ready(function () {
     });
 
     $("#Role").change(function () {
-        $("#fees").attr("value", $(this).val() === "Student" ? "1000" : $(this).val() === "Professional" ? "1500" : "N/A");
-        $("#amt").attr("value", $(this).val() === "Student" ? "1000" : $(this).val() === "Professional" ? "1500" : "N/A");
+        $("#fees").attr("value", $(this).val() === "Student" ? "1500" : $(this).val() === "Professional" ? "2000" : "N/A");
+        $("#amt").attr("value", $(this).val() === "Student" ? "1500" : $(this).val() === "Professional" ? "2000" : "N/A");
     });
 });
 

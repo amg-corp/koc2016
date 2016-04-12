@@ -37,21 +37,21 @@ if (empty($posted['hash']) && sizeof($posted) > 0) {
     } else {
         //$posted['productinfo'] = json_encode(json_decode('[{"name":"tutionfee","description":"","value":"500","isRequired":"false"},{"name":"developmentfee","description":"monthly tution fee","value":"1500","isRequired":"false"}]'));
 //        $amount = !empty($_POST) ? $posted['amount'] : -1;
-//
-//        if ($amount == 1000 || $amount == 1500) {
-//            $invalidFund = true;
-//        } else {
-//            $invalidFund = false;
-//            echo '<meta http-equiv="refresh" content="2; URL=' . $home . '">';
-//            echo '<body><h1>Incorect ways to mismatch Funds. This incident will be reported!!!</h1>';
-//            echo '<h2>If your browser doesnt automatically go there within a few seconds, 
-//                      you may want to go to 
-//                      <a href="' . $home . '">the destination</a> 
-//                      manually.
-//                  </h2></body>';
-//            $action = "#";
-//            exit();
-//        }
+
+        if ($amount == 1500 || $amount == 2000) {
+            $invalidFund = true;
+        } else {
+            $invalidFund = false;
+            echo '<meta http-equiv="refresh" content="2; URL=' . $home . '">';
+            echo '<body><h1>Incorect ways to mismatch Funds. This incident will be reported!!!</h1>';
+            echo '<h2>If your browser doesnt automatically go there within a few seconds, 
+                      you may want to go to 
+                      <a href="' . $home . '">the destination</a> 
+                      manually.
+                  </h2></body>';
+            $action = "#";
+            exit();
+        }
 
         $hashVarsSeq = explode('|', $hashSequence);
         $hash_string = '';

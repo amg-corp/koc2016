@@ -1064,7 +1064,7 @@ include './includes/payment_init.php';
                             </div>
                             <div class="speaker-desc">
                                 <p>Yashwant Saoji</p>
-                                <span>Speaker 1</span>
+                                <span>MOptom., F Optom., FIACLE., FBCLA</span>
                             </div>
                         </div>
                         <div class="col-md-4 speaker wow fadeInDown" data-wow-delay="1.1s">
@@ -1077,7 +1077,8 @@ include './includes/payment_init.php';
                             </div>
                             <div class="speaker-desc">
                                 <p>Nilesh Thite</p>
-                                <span>Speaker 2</span>
+                                <p>M. Optom, FIACLE, FBCLA, FAAO </p>
+                                <p>Director of Educational Programs, IACLE</p>
                             </div>
                         </div>
                         <div class="col-md-4 speaker wow fadeInDown" data-wow-delay="1.2s">
@@ -1090,7 +1091,8 @@ include './includes/payment_init.php';
                             </div>
                             <div class="speaker-desc">
                                 <p>Vinod Daniel</p>
-                                <span>Speaker 3</span>
+                                <span>M Tech</span>
+                                <p>CEO India Vision Institute</p>
                             </div>
                         </div>
                     </div> 
@@ -1110,7 +1112,7 @@ include './includes/payment_init.php';
                         </div>
                         <div class="col-md-4 speaker wow fadeInDown" data-wow-delay="1.1s">
                             <div class="speaker-img">
-                                <img src="assets/img/speakers/speaker5.jpg" alt="">
+                                <img src="assets/img/speakers/Jyothi.JPG" alt="">
                                 <a href="" class="speaker-contacts left-top"><i class="fa fa-google-plus fa-2x"></i></a> 
                                 <a href="" class="speaker-contacts left-bottom"><i class="fa fa-facebook fa-2x"></i></a>
                                 <a href="" class="speaker-contacts right-bottom"><i class="fa fa-twitter fa-2x"></i></a>
@@ -1118,7 +1120,9 @@ include './includes/payment_init.php';
                             </div>
                             <div class="speaker-desc">
                                 <p>Jyoti Dave Singh</p>
-                                <span>Speaker 5</span>
+                                <span>FBDO(Hons)CL, FBCLA, FIACLE</span>
+                                <span>Advisor-India</span>
+                                <span>MENICON/David Thomas Contact lenses Ltd. UK.</span>
                             </div>
                         </div>
                         <div class="col-md-4 speaker wow fadeInDown" data-wow-delay="1.2s">
@@ -1131,7 +1135,54 @@ include './includes/payment_init.php';
                             </div>
                             <div class="speaker-desc">
                                 <p>Lakshmi Shinde</p>
-                                <span>Speaker 6</span>
+                                <span>B.OPTPM, Msc Optometry ( UNSW), FAAO, FIACLE, FBCLA </span>
+                                <span>CEO, Optometry Council of India, Global education manager IACLE, Trustee IVI</span>
+                            </div>
+                        </div>
+
+                        <div class="col-md-4 speaker wow fadeInDown" data-wow-delay="1.2s">
+                            <div class="speaker-img">
+                                <img src="assets/img/speakers/amod gogate pic.jpg" alt="">
+                                <a href="" class="speaker-contacts left-top"><i class="fa fa-google-plus fa-2x"></i></a> 
+                                <a href="" class="speaker-contacts left-bottom"><i class="fa fa-facebook fa-2x"></i></a>
+                                <a href="" class="speaker-contacts right-bottom"><i class="fa fa-twitter fa-2x"></i></a>
+                                <a href="" class="speaker-contacts right-top"><i class="fa fa-envelope fa-2x"></i></a>
+                            </div>
+                            <div class="speaker-desc">
+                                <p>Amod Shriram Gogate</p>
+                                <span>M.Optom. FBCLA, Associate Director, Professional Affairs</span>
+                                <p>Johnson & Johnson Private Limited</p>
+                            </div>
+                        </div>
+                        <div class="col-md-4 speaker wow fadeInDown" data-wow-delay="1.2s">
+                            <div class="speaker-img">
+                                <img src="assets/img/speakers/Monica Chaudhry.jpg" alt="">
+                                <a href="" class="speaker-contacts left-top"><i class="fa fa-google-plus fa-2x"></i></a> 
+                                <a href="" class="speaker-contacts left-bottom"><i class="fa fa-facebook fa-2x"></i></a>
+                                <a href="" class="speaker-contacts right-bottom"><i class="fa fa-twitter fa-2x"></i></a>
+                                <a href="" class="speaker-contacts right-top"><i class="fa fa-envelope fa-2x"></i></a>
+                            </div>
+                            <div class="speaker-desc">
+                                <p>Monica Chaudhry</p>
+                                <span>Bsc , Msc Optometry , pusuing PHD </span>
+                                <p>Professor and Head of department of optometry and vision science 
+                                    Amity University</p>
+                            </div>
+                        </div>
+                        <div class="col-md-4 speaker wow fadeInDown" data-wow-delay="1.2s">
+                            <div class="speaker-img">
+                                <img src="assets/img/speakers/shrikant.jpg" alt="">
+                                <a href="" class="speaker-contacts left-top"><i class="fa fa-google-plus fa-2x"></i></a> 
+                                <a href="" class="speaker-contacts left-bottom"><i class="fa fa-facebook fa-2x"></i></a>
+                                <a href="" class="speaker-contacts right-bottom"><i class="fa fa-twitter fa-2x"></i></a>
+                                <a href="" class="speaker-contacts right-top"><i class="fa fa-envelope fa-2x"></i></a>
+                            </div>
+                            <div class="speaker-desc">
+                                <p>Srikant Bharadwaj</p>
+                                <span>BSopt., PhD</span>
+                                <span>Scientist - Visual Optics Laboratory</span>
+                                <span>Associate Director of Optometry</span>
+                                <span>L V Prasad Eye Institute</span>
                             </div>
                         </div>
                     </div>         
@@ -1277,8 +1328,13 @@ include './includes/payment_init.php';
                                         </a>
                                     </li>
                                     <li class="fadeInUp">
-                                        <a href="#!" data-largesrc="assets/img/team/team1.jpg" data-title="Debasish Kar" data-description="Chairman">
+                                        <a href="#!" data-largesrc="assets/img/team/team1.jpg" data-title="Debasish Kar" data-description="Vice Chairman">
                                             <img src="assets/img/team/team1.jpg" alt="Debasish Kar"/>
+                                        </a>
+                                    </li>
+                                    <li class="fadeInUp">
+                                        <a href="#!" data-largesrc="assets/img/team/Subhasish Choudhury.jpg" data-title="Subhasish Choudhury" data-description="Chairman">
+                                            <img src="assets/img/team/Subhasish Choudhury.jpg" alt="Subhasish Choudhury"/>
                                         </a>
                                     </li>
                                     <li class="fadeInDown">
@@ -1336,11 +1392,11 @@ include './includes/payment_init.php';
                                             <img src="assets/img/team/Sanjoy Das.jpg" alt="Sanjoy Das.jpg"/>
                                         </a>
                                     </li>
-                                    <li class="fadeInUp">
+<!--                                    <li class="fadeInUp">
                                         <a href="#!" data-largesrc="assets/img/team/Subhasish Choudhury.jpg" data-title="Subhasish Choudhury" data-description="Team Member">
                                             <img src="assets/img/team/Subhasish Choudhury.jpg" alt="Subhasish Choudhury"/>
                                         </a>
-                                    </li>
+                                    </li>-->
                                     <li class="fadeInDown">
                                         <a href="#!" data-largesrc="assets/img/team/Atanu Samanta.jpg" data-title="Atanu Samanta" data-description="Team Member">
                                             <img src="assets/img/team/Atanu Samanta.jpg" alt="Atanu Samanta"/>
@@ -1524,8 +1580,8 @@ include './includes/payment_init.php';
                                     <div class="form-group">
                                         <label class="col-md-4 control-label" for="paymentmode">Registration Fees</label>
                                         <div class="col-md-4">
-                                            <input id="fees" type="text" class="form-control input-md" required="" value="1000" readonly>
-                                            <input id="amt" name="amount" type="hidden" value="<?php echo (empty($posted['amount'])) ? '1000' : $posted['amount'] ?>">
+                                            <input id="fees" type="text" class="form-control input-md" required="" value="1500" readonly>
+                                            <input id="amt" name="amount" type="hidden" value="<?php echo (empty($posted['amount'])) ? '1500' : $posted['amount'] ?>">
                                             <input type="hidden" name="surl" value="<?php echo $surl ?>" size="64">
                                             <input type="hidden" name="furl" value="<?php echo $furl ?>" size="64">
                                             <input type="hidden" name="service_provider" value="payu_paisa"/>
